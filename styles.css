@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body, h1, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #D8DADF; /* Light Gray background color */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a professional background color */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #A7A19C; /* Grayish text color */
+    padding: 20px;
+    background-color: #C59B3A; /* Mustard background color */
+}
+
+/* Style the list of recipes */
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style list items and their links */
+li {
+    margin: 20px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: #6D5035; /* Brown text color */
+    text-decoration: none;
+    background-color: #FFE292; /* Light Yellow background color */
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #B39B62; /* Light Brown background color on hover */
+}
